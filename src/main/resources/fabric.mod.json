@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "combathud",
+  "version": "${version}",
+  "name": "Combat HUD",
+  "description": "Muestra un retrato, la vida, la armadura y el arma del enemigo con el que combates.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.combathud.CombatHudClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
